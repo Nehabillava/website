@@ -1,0 +1,130 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #f3f4f6, #eaeef1);
+    color: #333;
+}
+
+/* Header styling */
+header {
+    background: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main content styling */
+main {
+    padding: 20px;
+}
+
+main h2 {
+    color: #4CAF50;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Form styling for contact page */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 2em;
+    border-radius: 10px;
+}
+
+form label {
+    display: block;
+    text-align: left;
+    margin-bottom: 0.5em;
+    font-size: 1.2em;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.8em;
+    margin-bottom: 1em;
+    border: none;
+    border-radius: 5px;
+}
+
+form button {
+    background: #f1c40f;
+    color: #2c3e50;
+    padding: 0.8em 2em;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background: #f39c12;
+}
+
+/* Resume container */
+.resume-container {
+    max-width: 800px;
+    margin: 40px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.resume-container h2 {
+    color: #4CAF50;
+    border-bottom: 2px solid #eaeef1;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.resume-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.resume-container ul li {
+    margin: 10px 0;
+}
+
+.resume-container ul li strong {
+    color: #555;
+}
+
+.resume-container p {
+    line-height: 1.6;
+}
